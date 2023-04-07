@@ -1,11 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="popup.css">
-    <script type="module" src="popup.js"></script>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 10px;
+    }
+  </style>
 </head>
 <body>
-    <strong>Hello World!</strong>
+  <h1 id="extension-name"></h1>
+  <p>Author: <span id="extension-author"></span></p>
+  <p>Website: <span id="extension-website"></span></p>
+  <p>License: <span id="extension-license"></span></p>
+  <p>Version: <span id="extension-version"></span></p>
+
+  <script src="popup.js"></script>
 </body>
 </html>
