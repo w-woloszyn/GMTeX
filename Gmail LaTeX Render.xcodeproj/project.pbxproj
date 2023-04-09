@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26E26E5829E05D2A0018EF38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E26E5729E05D2A0018EF38 /* AppDelegate.swift */; };
-		26E26E5A29E05D2A0018EF38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E26E5929E05D2A0018EF38 /* SceneDelegate.swift */; };
-		26E26E5D29E05D2A0018EF38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26E26E5B29E05D2A0018EF38 /* LaunchScreen.storyboard */; };
-		26E26E6029E05D2A0018EF38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26E26E5E29E05D2A0018EF38 /* Main.storyboard */; };
 		26E26E6929E05D2A0018EF38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E26E6829E05D2A0018EF38 /* AppDelegate.swift */; };
 		26E26E6C29E05D2A0018EF38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26E26E6A29E05D2A0018EF38 /* Main.storyboard */; };
 		26E26E7329E05D2A0018EF38 /* Gmail LaTeX Render Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 26E26E7229E05D2A0018EF38 /* Gmail LaTeX Render Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -101,17 +97,11 @@
 		26E26E4E29E05D2A0018EF38 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
 		26E26E4F29E05D2A0018EF38 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		26E26E5429E05D2A0018EF38 /* Gmail LaTeX Render.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gmail LaTeX Render.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		26E26E5729E05D2A0018EF38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		26E26E5929E05D2A0018EF38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		26E26E5C29E05D2A0018EF38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		26E26E5F29E05D2A0018EF38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		26E26E6129E05D2A0018EF38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26E26E6629E05D2A0018EF38 /* Gmail LaTeX Render.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gmail LaTeX Render.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26E26E6829E05D2A0018EF38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26E26E6B29E05D2A0018EF38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		26E26E6D29E05D2A0018EF38 /* Gmail LaTeX Render.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Gmail LaTeX Render.entitlements"; sourceTree = "<group>"; };
 		26E26E7229E05D2A0018EF38 /* Gmail LaTeX Render Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Gmail LaTeX Render Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		26E26E7729E05D2A0018EF38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26E26E7C29E05D2A0018EF38 /* Gmail LaTeX Render Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Gmail LaTeX Render Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26E26E8129E05D2A0018EF38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26E26E8229E05D2A0018EF38 /* Gmail LaTeX Render.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Gmail LaTeX Render.entitlements"; sourceTree = "<group>"; };
@@ -154,9 +144,7 @@
 			children = (
 				26E26E3C29E05D250018EF38 /* Shared (App) */,
 				26E26E4529E05D2A0018EF38 /* Shared (Extension) */,
-				26E26E5629E05D2A0018EF38 /* iOS (App) */,
 				26E26E6729E05D2A0018EF38 /* macOS (App) */,
-				26E26E7629E05D2A0018EF38 /* iOS (Extension) */,
 				26E26E8029E05D2A0018EF38 /* macOS (Extension) */,
 				26E26E5529E05D2A0018EF38 /* Products */,
 			);
@@ -217,18 +205,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		26E26E5629E05D2A0018EF38 /* iOS (App) */ = {
-			isa = PBXGroup;
-			children = (
-				26E26E5729E05D2A0018EF38 /* AppDelegate.swift */,
-				26E26E5929E05D2A0018EF38 /* SceneDelegate.swift */,
-				26E26E5B29E05D2A0018EF38 /* LaunchScreen.storyboard */,
-				26E26E5E29E05D2A0018EF38 /* Main.storyboard */,
-				26E26E6129E05D2A0018EF38 /* Info.plist */,
-			);
-			path = "iOS (App)";
-			sourceTree = "<group>";
-		};
 		26E26E6729E05D2A0018EF38 /* macOS (App) */ = {
 			isa = PBXGroup;
 			children = (
@@ -237,14 +213,6 @@
 				26E26E6D29E05D2A0018EF38 /* Gmail LaTeX Render.entitlements */,
 			);
 			path = "macOS (App)";
-			sourceTree = "<group>";
-		};
-		26E26E7629E05D2A0018EF38 /* iOS (Extension) */ = {
-			isa = PBXGroup;
-			children = (
-				26E26E7729E05D2A0018EF38 /* Info.plist */,
-			);
-			path = "iOS (Extension)";
 			sourceTree = "<group>";
 		};
 		26E26E8029E05D2A0018EF38 /* macOS (Extension) */ = {
@@ -381,10 +349,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26E26E5D29E05D2A0018EF38 /* LaunchScreen.storyboard in Resources */,
 				26E26E8329E05D2A0018EF38 /* Main.html in Resources */,
 				26E26E8929E05D2A0018EF38 /* Script.js in Resources */,
-				26E26E6029E05D2A0018EF38 /* Main.storyboard in Resources */,
 				26E26E8729E05D2A0018EF38 /* Style.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,8 +404,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				26E26E8B29E05D2A0018EF38 /* ViewController.swift in Sources */,
-				26E26E5829E05D2A0018EF38 /* AppDelegate.swift in Sources */,
-				26E26E5A29E05D2A0018EF38 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,22 +454,6 @@
 				26E26E3F29E05D250018EF38 /* Base */,
 			);
 			name = Main.html;
-			sourceTree = "<group>";
-		};
-		26E26E5B29E05D2A0018EF38 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				26E26E5C29E05D2A0018EF38 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		26E26E5E29E05D2A0018EF38 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				26E26E5F29E05D2A0018EF38 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		26E26E6A29E05D2A0018EF38 /* Main.storyboard */ = {
