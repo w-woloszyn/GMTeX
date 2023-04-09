@@ -9,44 +9,24 @@
 /* Begin PBXBuildFile section */
 		26E26E6929E05D2A0018EF38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E26E6829E05D2A0018EF38 /* AppDelegate.swift */; };
 		26E26E6C29E05D2A0018EF38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26E26E6A29E05D2A0018EF38 /* Main.storyboard */; };
-		26E26E7329E05D2A0018EF38 /* Gmail LaTeX Render Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 26E26E7229E05D2A0018EF38 /* Gmail LaTeX Render Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		26E26E7D29E05D2A0018EF38 /* Gmail LaTeX Render Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 26E26E7C29E05D2A0018EF38 /* Gmail LaTeX Render Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		26E26E8329E05D2A0018EF38 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 26E26E3E29E05D250018EF38 /* Main.html */; };
 		26E26E8429E05D2A0018EF38 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 26E26E3E29E05D250018EF38 /* Main.html */; };
 		26E26E8629E05D2A0018EF38 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 26E26E4029E05D250018EF38 /* Icon.png */; };
-		26E26E8729E05D2A0018EF38 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 26E26E4129E05D250018EF38 /* Style.css */; };
 		26E26E8829E05D2A0018EF38 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 26E26E4129E05D250018EF38 /* Style.css */; };
-		26E26E8929E05D2A0018EF38 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 26E26E4229E05D250018EF38 /* Script.js */; };
 		26E26E8A29E05D2A0018EF38 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 26E26E4229E05D250018EF38 /* Script.js */; };
-		26E26E8B29E05D2A0018EF38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E26E4329E05D250018EF38 /* ViewController.swift */; };
 		26E26E8C29E05D2A0018EF38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E26E4329E05D250018EF38 /* ViewController.swift */; };
 		26E26E8E29E05D2A0018EF38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26E26E4429E05D2A0018EF38 /* Assets.xcassets */; };
-		26E26E8F29E05D2A0018EF38 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E26E4629E05D2A0018EF38 /* SafariWebExtensionHandler.swift */; };
 		26E26E9029E05D2A0018EF38 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E26E4629E05D2A0018EF38 /* SafariWebExtensionHandler.swift */; };
-		26E26E9129E05D2A0018EF38 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 26E26E4829E05D2A0018EF38 /* _locales */; };
 		26E26E9229E05D2A0018EF38 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 26E26E4829E05D2A0018EF38 /* _locales */; };
-		26E26E9329E05D2A0018EF38 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 26E26E4929E05D2A0018EF38 /* images */; };
 		26E26E9429E05D2A0018EF38 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 26E26E4929E05D2A0018EF38 /* images */; };
-		26E26E9529E05D2A0018EF38 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 26E26E4A29E05D2A0018EF38 /* manifest.json */; };
 		26E26E9629E05D2A0018EF38 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 26E26E4A29E05D2A0018EF38 /* manifest.json */; };
-		26E26E9929E05D2A0018EF38 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 26E26E4C29E05D2A0018EF38 /* content.js */; };
 		26E26E9A29E05D2A0018EF38 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 26E26E4C29E05D2A0018EF38 /* content.js */; };
-		26E26E9B29E05D2A0018EF38 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 26E26E4D29E05D2A0018EF38 /* popup.html */; };
 		26E26E9C29E05D2A0018EF38 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 26E26E4D29E05D2A0018EF38 /* popup.html */; };
-		26E26E9D29E05D2A0018EF38 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 26E26E4E29E05D2A0018EF38 /* popup.css */; };
 		26E26E9E29E05D2A0018EF38 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 26E26E4E29E05D2A0018EF38 /* popup.css */; };
-		26E26E9F29E05D2A0018EF38 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 26E26E4F29E05D2A0018EF38 /* popup.js */; };
 		26E26EA029E05D2A0018EF38 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 26E26E4F29E05D2A0018EF38 /* popup.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		26E26E7429E05D2A0018EF38 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 26E26E3829E05D240018EF38 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 26E26E7129E05D2A0018EF38;
-			remoteInfo = "Gmail LaTeX Render Extension (iOS)";
-		};
 		26E26E7E29E05D2A0018EF38 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 26E26E3829E05D240018EF38 /* Project object */;
@@ -57,17 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		26E26EA629E05D2A0018EF38 /* Embed Foundation Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				26E26E7329E05D2A0018EF38 /* Gmail LaTeX Render Extension.appex in Embed Foundation Extensions */,
-			);
-			name = "Embed Foundation Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		26E26EAD29E05D2A0018EF38 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -96,33 +65,17 @@
 		26E26E4D29E05D2A0018EF38 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
 		26E26E4E29E05D2A0018EF38 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
 		26E26E4F29E05D2A0018EF38 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
-		26E26E5429E05D2A0018EF38 /* Gmail LaTeX Render.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gmail LaTeX Render.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26E26E6629E05D2A0018EF38 /* Gmail LaTeX Render.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gmail LaTeX Render.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26E26E6829E05D2A0018EF38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26E26E6B29E05D2A0018EF38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		26E26E6D29E05D2A0018EF38 /* Gmail LaTeX Render.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Gmail LaTeX Render.entitlements"; sourceTree = "<group>"; };
-		26E26E7229E05D2A0018EF38 /* Gmail LaTeX Render Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Gmail LaTeX Render Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26E26E7C29E05D2A0018EF38 /* Gmail LaTeX Render Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Gmail LaTeX Render Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26E26E8129E05D2A0018EF38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26E26E8229E05D2A0018EF38 /* Gmail LaTeX Render.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Gmail LaTeX Render.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		26E26E5129E05D2A0018EF38 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		26E26E6329E05D2A0018EF38 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		26E26E6F29E05D2A0018EF38 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -197,9 +150,7 @@
 		26E26E5529E05D2A0018EF38 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				26E26E5429E05D2A0018EF38 /* Gmail LaTeX Render.app */,
 				26E26E6629E05D2A0018EF38 /* Gmail LaTeX Render.app */,
-				26E26E7229E05D2A0018EF38 /* Gmail LaTeX Render Extension.appex */,
 				26E26E7C29E05D2A0018EF38 /* Gmail LaTeX Render Extension.appex */,
 			);
 			name = Products;
@@ -227,25 +178,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		26E26E5329E05D2A0018EF38 /* Gmail LaTeX Render (iOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 26E26EA729E05D2A0018EF38 /* Build configuration list for PBXNativeTarget "Gmail LaTeX Render (iOS)" */;
-			buildPhases = (
-				26E26E5029E05D2A0018EF38 /* Sources */,
-				26E26E5129E05D2A0018EF38 /* Frameworks */,
-				26E26E5229E05D2A0018EF38 /* Resources */,
-				26E26EA629E05D2A0018EF38 /* Embed Foundation Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				26E26E7529E05D2A0018EF38 /* PBXTargetDependency */,
-			);
-			name = "Gmail LaTeX Render (iOS)";
-			productName = "Gmail LaTeX Render (iOS)";
-			productReference = 26E26E5429E05D2A0018EF38 /* Gmail LaTeX Render.app */;
-			productType = "com.apple.product-type.application";
-		};
 		26E26E6529E05D2A0018EF38 /* Gmail LaTeX Render (macOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26E26EAE29E05D2A0018EF38 /* Build configuration list for PBXNativeTarget "Gmail LaTeX Render (macOS)" */;
@@ -264,23 +196,6 @@
 			productName = "Gmail LaTeX Render (macOS)";
 			productReference = 26E26E6629E05D2A0018EF38 /* Gmail LaTeX Render.app */;
 			productType = "com.apple.product-type.application";
-		};
-		26E26E7129E05D2A0018EF38 /* Gmail LaTeX Render Extension (iOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 26E26EA329E05D2A0018EF38 /* Build configuration list for PBXNativeTarget "Gmail LaTeX Render Extension (iOS)" */;
-			buildPhases = (
-				26E26E6E29E05D2A0018EF38 /* Sources */,
-				26E26E6F29E05D2A0018EF38 /* Frameworks */,
-				26E26E7029E05D2A0018EF38 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Gmail LaTeX Render Extension (iOS)";
-			productName = "Gmail LaTeX Render Extension (iOS)";
-			productReference = 26E26E7229E05D2A0018EF38 /* Gmail LaTeX Render Extension.appex */;
-			productType = "com.apple.product-type.app-extension";
 		};
 		26E26E7B29E05D2A0018EF38 /* Gmail LaTeX Render Extension (macOS) */ = {
 			isa = PBXNativeTarget;
@@ -309,13 +224,7 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					26E26E5329E05D2A0018EF38 = {
-						CreatedOnToolsVersion = 14.3;
-					};
 					26E26E6529E05D2A0018EF38 = {
-						CreatedOnToolsVersion = 14.3;
-					};
-					26E26E7129E05D2A0018EF38 = {
 						CreatedOnToolsVersion = 14.3;
 					};
 					26E26E7B29E05D2A0018EF38 = {
@@ -336,25 +245,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				26E26E5329E05D2A0018EF38 /* Gmail LaTeX Render (iOS) */,
 				26E26E6529E05D2A0018EF38 /* Gmail LaTeX Render (macOS) */,
-				26E26E7129E05D2A0018EF38 /* Gmail LaTeX Render Extension (iOS) */,
 				26E26E7B29E05D2A0018EF38 /* Gmail LaTeX Render Extension (macOS) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		26E26E5229E05D2A0018EF38 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				26E26E8329E05D2A0018EF38 /* Main.html in Resources */,
-				26E26E8929E05D2A0018EF38 /* Script.js in Resources */,
-				26E26E8729E05D2A0018EF38 /* Style.css in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		26E26E6429E05D2A0018EF38 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -365,20 +262,6 @@
 				26E26E8A29E05D2A0018EF38 /* Script.js in Resources */,
 				26E26E8E29E05D2A0018EF38 /* Assets.xcassets in Resources */,
 				26E26E8429E05D2A0018EF38 /* Main.html in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		26E26E7029E05D2A0018EF38 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				26E26E9D29E05D2A0018EF38 /* popup.css in Resources */,
-				26E26E9B29E05D2A0018EF38 /* popup.html in Resources */,
-				26E26E9329E05D2A0018EF38 /* images in Resources */,
-				26E26E9529E05D2A0018EF38 /* manifest.json in Resources */,
-				26E26E9129E05D2A0018EF38 /* _locales in Resources */,
-				26E26E9929E05D2A0018EF38 /* content.js in Resources */,
-				26E26E9F29E05D2A0018EF38 /* popup.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,28 +282,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		26E26E5029E05D2A0018EF38 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				26E26E8B29E05D2A0018EF38 /* ViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		26E26E6229E05D2A0018EF38 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				26E26E8C29E05D2A0018EF38 /* ViewController.swift in Sources */,
 				26E26E6929E05D2A0018EF38 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		26E26E6E29E05D2A0018EF38 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				26E26E8F29E05D2A0018EF38 /* SafariWebExtensionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,11 +302,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		26E26E7529E05D2A0018EF38 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 26E26E7129E05D2A0018EF38 /* Gmail LaTeX Render Extension (iOS) */;
-			targetProxy = 26E26E7429E05D2A0018EF38 /* PBXContainerItemProxy */;
-		};
 		26E26E7F29E05D2A0018EF38 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 26E26E7B29E05D2A0018EF38 /* Gmail LaTeX Render Extension (macOS) */;
@@ -576,149 +438,11 @@
 			};
 			name = Release;
 		};
-		26E26EA429E05D2A0018EF38 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HRRCMF4PFJ;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Gmail LaTeX Render Extension";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = (
-					"-framework",
-					SafariServices,
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "woloszyn.Gmail-LaTeX-Render.Extension";
-				PRODUCT_NAME = "Gmail LaTeX Render Extension";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		26E26EA529E05D2A0018EF38 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HRRCMF4PFJ;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Gmail LaTeX Render Extension";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = (
-					"-framework",
-					SafariServices,
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "woloszyn.Gmail-LaTeX-Render.Extension";
-				PRODUCT_NAME = "Gmail LaTeX Render Extension";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		26E26EA829E05D2A0018EF38 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HRRCMF4PFJ;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Gmail LaTeX Render";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = (
-					"-framework",
-					SafariServices,
-					"-framework",
-					WebKit,
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "woloszyn.Gmail-LaTeX-Render";
-				PRODUCT_NAME = "Gmail LaTeX Render";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		26E26EA929E05D2A0018EF38 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HRRCMF4PFJ;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Gmail LaTeX Render";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = (
-					"-framework",
-					SafariServices,
-					"-framework",
-					WebKit,
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "woloszyn.Gmail-LaTeX-Render";
-				PRODUCT_NAME = "Gmail LaTeX Render";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		26E26EAB29E05D2A0018EF38 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Gmail LaTeX Render.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -751,6 +475,8 @@
 		26E26EAC29E05D2A0018EF38 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Gmail LaTeX Render.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -786,15 +512,18 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Gmail LaTeX Render.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HRRCMF4PFJ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Gmail LaTeX Render";
+				INFOPLIST_KEY_CFBundleDisplayName = GMTeX;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main.storyboard;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -821,15 +550,18 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Gmail LaTeX Render.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HRRCMF4PFJ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Gmail LaTeX Render";
+				INFOPLIST_KEY_CFBundleDisplayName = GMTeX;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main.storyboard;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -858,24 +590,6 @@
 			buildConfigurations = (
 				26E26EA129E05D2A0018EF38 /* Debug */,
 				26E26EA229E05D2A0018EF38 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		26E26EA329E05D2A0018EF38 /* Build configuration list for PBXNativeTarget "Gmail LaTeX Render Extension (iOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				26E26EA429E05D2A0018EF38 /* Debug */,
-				26E26EA529E05D2A0018EF38 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		26E26EA729E05D2A0018EF38 /* Build configuration list for PBXNativeTarget "Gmail LaTeX Render (iOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				26E26EA829E05D2A0018EF38 /* Debug */,
-				26E26EA929E05D2A0018EF38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
