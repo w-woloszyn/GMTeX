@@ -9,7 +9,11 @@ GMTeX is a simple Safari extension that renders LaTeX equations in Gmail. It all
 
 ## Installation
 
-1. Download and install the latest release of GMTeX Safari Extension from the [releases page](https://github.com/yourusername/gmtex-safari-extension/releases).
+1. Download the latest release of GMTeX Safari Extension from the [releases page](https://github.com/yourusername/gmtex-safari-extension/releases).
+2. Click on the downloaded application while holding <kbd>⌃ Control</kbd>.
+3. Select ``Open``.
+4. Select ``Open`` again.
+5. Open Gmail and grant permissions to read and edit content when the extension asks you to do so.
 
 ## Usage
 
